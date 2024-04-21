@@ -22,10 +22,11 @@ jobs:
 
       - name: Run Robot Framework tests
         run: |
-          robot --outputdir results/tests/
+          robot --outputdir results/academy-chips -robot/Academy/tests
 
       - name: Test Report
         uses: actions/upload-artifact@v4
         with:
           name: robot-framework-report
           path: results/**
+
