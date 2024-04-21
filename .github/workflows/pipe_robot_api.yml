@@ -7,6 +7,14 @@ jobs:
     name: Testes de api Back-End
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://EtmoReis.github.io/academy-chips-robot/report.html
+
     steps: 
       - name: Clonando repositorio para máquina
         uses: actions/checkout@v4
@@ -32,4 +40,15 @@ jobs:
           name: robot-framework-report
           path: results/**
 
+      - name: Ferramentas de configuração de páginas 
+        uses: actions/configure-pages@v2
+ 
+      - name:  Carregando resultados de Testes
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: results/
+ 
+      - name: Subindo Pagina Web com Resultados 
+        id: deployment
+        uses: actions/deploy-pages@v1
 
