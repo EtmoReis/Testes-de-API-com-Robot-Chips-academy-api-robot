@@ -4,29 +4,31 @@ on: push
 
 jobs:
   test:
+    name: Testes de api Back-End
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Repository
+    steps: 
+      - name: Clonando repositorio para máquina
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Configundo Python na Máquina
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Instalação das Dependencias do Projeto 
         run: |
           pip install robotframework
           pip install robotframework-requests
 
-      - name: Run Robot Framework tests
+      - name: Executando os Tests no Robot 
         run: |
           robot --outputdir results/ tests/
 
-      - name: Test Report
+      - name: Salvando Resultado dos Testes
         uses: actions/upload-artifact@v4
-        with:
+        if: always()
+        with: 
           name: robot-framework-report
           path: results/**
 
