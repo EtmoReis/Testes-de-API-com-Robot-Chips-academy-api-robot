@@ -2,6 +2,7 @@
 Resource    ../resource/data/login.robot
 Resource    ../resource/arquivo_geral.resource
 Resource    ../resource/login_Sysadmin.resource
+Resource    ../resource/criarCentrodeCustos.resource
 Library  RequestsLibrary
 Library  String
 Library  Collections
@@ -58,7 +59,7 @@ Criar um novo Departament
     Log                     ${DEPARTA_NAME}
 
 Cadastrar o novo Departament
-    ${body}    Create Dictionary    departmentName=${DEPARTA_NAME}  costCenterId= ${ID_COST} 
+    ${body}    Create Dictionary    departmentName=${DEPARTA_NAME}  costCenterId=${ID_COST} 
   
     Log  ${body}
     Criar sessão
