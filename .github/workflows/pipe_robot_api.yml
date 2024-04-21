@@ -42,13 +42,17 @@ jobs:
 
       - name: Ferramentas de configuração de páginas 
         uses: actions/configure-pages@v2
+        if: always()
  
       - name:  Carregando resultados de Testes
         uses: actions/upload-pages-artifact@v1
+        if: always()
         with:
           path: results/
  
       - name: Subindo Pagina Web com Resultados 
         id: deployment
         uses: actions/deploy-pages@v1
+        if: always()
+
 
