@@ -31,7 +31,7 @@ jobs:
 
       - name: Executando os Tests no Robot 
         run: |
-          robot --outputdir results/ tests/
+          robot --name "Resultado Testes Api" --outputdir results/ tests/
 
       - name: Salvando Resultado dos Testes
         uses: actions/upload-artifact@v4
