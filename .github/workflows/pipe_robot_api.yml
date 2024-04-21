@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Robot Framework tests
         run: |
-          robot --outputdir results/academy/tests/
+          robot --outputdir results/academy/resource/tests/
 
       - name: Test Report
         uses: actions/upload-artifact@v4
