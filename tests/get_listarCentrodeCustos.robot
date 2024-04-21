@@ -19,7 +19,7 @@ CT1 - Listar Centro de Custos (N funcionais)
     Criar sessão
     Entrar com usuário sysadmin
     Listar Centro de Custos 403
-    Listar Centro de Custos 404
+    
 CT2 -Contar Centro de Custos (N funcionais)
     Criar sessão
     Entrar com usuário sysadmin

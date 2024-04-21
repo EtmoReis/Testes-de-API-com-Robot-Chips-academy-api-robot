@@ -54,7 +54,7 @@ Listar Centro de Custos 403
   
 Listar Centro de Custos 404
   ${headers}    Create Dictionary     Authorization=${TOKEN}
-  ${listar_cost}  GET On Session  alias=Chips  url=/api/costCente/   expected_status=404    headers=${headers}
+  ${listar_cost}  GET On Session  alias=Chips  url=/api/costCenter/   expected_status=404    headers=${headers}
   Log  ${Listar_cost.json()}
   Set Test Variable     ${LISTAR_COST}           ${listar_cost.json()}
 
