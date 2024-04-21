@@ -38,7 +38,7 @@ jobs:
         if: always()
         with: 
           name: robot-framework-report
-          path: results/**
+          path: results/
 
       - name: Ferramentas de configuração de páginas 
         uses: actions/configure-pages@v2
