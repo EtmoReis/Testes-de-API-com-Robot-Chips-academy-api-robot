@@ -1,6 +1,11 @@
 <h1>Projeto POC: Automação e Teste de API com Robot Framework</h1>
-https://academy.brightest.be/wp-content/uploads/2020/10/Robot-Framework.png
-https://media-exp1.licdn.com/dms/image/C560BAQGIYJd6WwtTrQ/company-logo_200_200/0/1627017623764?e=2159024400&v=beta&t=rPHV86LDnbL6jKlbQjancnTogkh6eokULOdnq5QPqwc
+<p align="center">
+  <img src="https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/8c2c2059-2375-4618-a902-4c927adc3f66" width="400" alt="Imagem 1">
+  <img src="https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/7fda053e-b459-48a8-a13b-efd911cf36ef" width="400" alt="Imagem 2">
+</p>
+
+
+
 
 
 
