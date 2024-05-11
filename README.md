@@ -46,8 +46,6 @@
   <li><strong>Manutenção e Atualização dos Testes:</strong> Mantenha os testes de API atualizados com as mudanças no sistema e faça ajustes conforme necessário.</li>
 </ol>
 
-## Projeto Desenvolvido por: 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137322187?v=4" width=90><br/><sub>Danielle Sousa</sub>](https://github.com/rhswire)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniellesousadads/)](https://www.linkedin.com/in/daniellesousadads/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/116200326?v=4" width=90><br/><sub>Karine Bueno</sub>](https://github.com/karinebueno)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square
 
 
 
