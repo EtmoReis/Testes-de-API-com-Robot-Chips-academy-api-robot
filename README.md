@@ -1,5 +1,6 @@
 <h1>Projeto POC: Automação e Teste de API com Robot Framework</h1>
-![image](https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/2cf87c83-5103-457b-9912-dda9e792da7f)![image](https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/dd49ea6b-7f96-4b42-a4b4-b11869594242)
+![![image](https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/637f429e-6022-4c12-b180-9ac5e2b7ddb2)
+](https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/2cf87c83-5103-457b-9912-dda9e792da7f)![image](https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/dd49ea6b-7f96-4b42-a4b4-b11869594242)
 
 
 <p>Durante nossa colaboração com a instituição QA Coders, tivemos a oportunidade de realizar uma prova de conceito (POC) para demonstrar a eficácia da automação e teste de APIs utilizando o Robot Framework.</p>
