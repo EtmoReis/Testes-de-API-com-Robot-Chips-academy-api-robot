@@ -53,5 +53,55 @@
 </ol>
 
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Squad Chips</h1>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/EtmoReis">
+                    <img loading="lazy" src="https://github.com/EtmoReis.png" width="90"><br/>
+                    <sub>EtmoReis</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/AndersonFranc">
+                    <img loading="lazy" src="https://github.com/AndersonFranc.png" width="90"><br/>
+                    <sub>Anderson Franc</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/anderson-francelino-/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/IsabellaCoe">
+                    <img loading="lazy" src="https://github.com/IsabellaCoe.png" width="90"><br/>
+                    <sub>Isabella Coe</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/isabella-coe-934595298/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/JessieFerraz">
+                    <img loading="lazy" src="https://github.com/JessieFerraz.png" width="90"><br/>
+                    <sub>Jessie Ferraz</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/jessieferraz/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
 
