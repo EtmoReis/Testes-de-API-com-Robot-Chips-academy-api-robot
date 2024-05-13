@@ -2,27 +2,33 @@ on: push
 
 jobs:
   test:
-    name: Testes de API Back-End
+    name: Testes de api Back-End
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://EtmoReis.github.io/academy-chips--robot/report.html
+
     steps: 
-      - name: Clonando repositório para a máquina
+      - name: Clonando repositorio para máquina
         uses: actions/checkout@v4
 
-      - name: Configurando Python na máquina
+      - name: Configundo Python na Máquina
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Instalação das Dependências do Projeto 
+      - name: Instalação das Dependencias do Projeto 
         run: |
           pip install robotframework
           pip install robotframework-requests
-
-      - name: Executando os Testes no Robot 
+      - name: Executando os Tests no Robot 
         run: |
           robot --name "Resultado Testes Api" --outputdir results/ tests/
-
       - name: Salvando Resultado dos Testes
         uses: actions/upload-artifact@v4
         if: always()
@@ -30,11 +36,20 @@ jobs:
           name: robot-framework-report
           path: results/
 
-      - name: Publicando Relatório de Testes com GitHub Pages 
-        uses: actions/deploy-gh-pages@v3
+      - name: Ferramentas de configuração de páginas 
+        uses: actions/configure-pages@v2
+        if: always()
+ 
+      - name:  Carregando resultados de Testes
+        uses: actions/upload-pages-artifact@v1
+        if: always()
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          folder: results/
+          path: results/
+ 
+      - name: Subindo Pagina Web com Resultados 
+        id: deployment
+        uses: actions/deploy-pages@v1
+        if: always() 
 
 
 
