@@ -1,5 +1,3 @@
-name: Robot Framework Tests
-
 on: push
 
 jobs:
@@ -32,20 +30,11 @@ jobs:
           name: robot-framework-report
           path: results/
 
-      - name: Configurando GitHub Pages
-        uses: actions/setup-python@v2
-
-      - name: Carregando resultados dos Testes
-        uses: actions/upload-pages-artifact@v1
-        if: always()
-        with:
-          path: results/
- 
       - name: Publicando Relatório de Testes com GitHub Pages 
-        id: deployment
-        uses: JamesIves/github-pages-deploy-action@4.1.2
+        uses: actions/deploy-gh-pages@v3
         with:
-          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
           folder: results/
+
 
 
